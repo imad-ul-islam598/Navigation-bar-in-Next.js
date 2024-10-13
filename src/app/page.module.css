@@ -1,0 +1,71 @@
+/* Main container with an eye-catching background */
+.container {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4 60%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar styles with vibrant colors */
+.navbar {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.navItem {
+  padding: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 14px 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+  background-color: #ff6f61;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+
+/* Welcome section with smooth styling */
+.welcomeSection h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #2e003e;
+  text-shadow: 2px 2px #ffcccb;
+}
+
+.description {
+  font-size: 22px;
+  color: #4a4a4a;
+  margin-bottom: 30px;
+}
+
+/* Stylish button for extra interaction */
+.exploreButton {
+  background: linear-gradient(135deg, #ff6f61, #de6262);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.exploreButton:hover {
+  background: linear-gradient(135deg, #de6262, #ff9a9e);
+  transform: translateY(-5px);
+}
